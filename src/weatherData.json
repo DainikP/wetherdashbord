@@ -1,0 +1,123 @@
+{
+    "currentWeather": {
+      "date": "2024-08-01",
+      "temperature": "25°C",
+      "humidity": "60%",
+      "windSpeed": "10 km/h",
+      "condition": "Clear",
+      "icon": "clear.png"
+    },
+    "weeklyForecast": [
+      {
+        "date": "2024-08-01",
+        "temperatureHigh": "27°C",
+        "temperatureLow": "20°C",
+        "precipitation": "0%",
+        "condition": "Sunny"
+      },
+      {
+        "date": "2024-08-02",
+        "temperatureHigh": "28°C",
+        "temperatureLow": "21°C",
+        "precipitation": "10%",
+        "condition": "Partly Cloudy"
+      },
+      {
+        "date": "2024-08-03",
+        "temperatureHigh": "26°C",
+        "temperatureLow": "19°C",
+        "precipitation": "20%",
+        "condition": "Showers"
+      }
+      
+    ],
+    "fifteenDayForecast": [
+      {
+        "date": "2024-08-01",
+        "temperatureHigh": "27°C",
+        "temperatureLow": "20°C",
+        "precipitation": "0%",
+        "condition": "Sunny"
+      },
+      {
+        "date": "2024-08-02",
+        "temperatureHigh": "28°C",
+        "temperatureLow": "21°C",
+        "precipitation": "10%",
+        "condition": "Partly Cloudy"
+      }
+     
+    ],
+    "historicalWeather": [
+      {
+        "date": "2023-08-01",
+        "temperatureHigh": "30°C",
+        "temperatureLow": "22°C",
+        "precipitation": "5%",
+        "condition": "Mostly Sunny"
+      },
+      {
+        "date": "2023-08-02",
+        "temperatureHigh": "32°C",
+        "temperatureLow": "24°C",
+        "precipitation": "0%",
+        "condition": "Clear"
+      }
+      ],
+    "ensembleForecast": [
+      {
+        "date": "2024-08-01",
+        "temperatureMean": "26°C",
+        "temperatureRange": "24°C - 28°C",
+        "precipitationProbability": "5%"
+      },
+      {
+        "date": "2024-08-02",
+        "temperatureMean": "27°C",
+        "temperatureRange": "25°C - 29°C",
+        "precipitationProbability": "10%"
+      }
+       ],
+    "climateChange": {
+      "averageTemperatureRise": "1.2°C",
+      "carbonEmissions": "3500 Mt",
+      "seaLevelRise": "3 cm",
+      "year": "2024"
+    },
+    "marineForecast": [
+      {
+        "date": "2024-08-01",
+        "waveHeight": "1.5 m",
+        "seaTemperature": "24°C",
+        "windSpeed": "15 km/h",
+        "condition": "Calm"
+      },
+      {
+        "date": "2024-08-02",
+        "waveHeight": "2.0 m",
+        "seaTemperature": "25°C",
+        "windSpeed": "20 km/h",
+        "condition": "Mild"
+      }
+        ],
+    "airQuality": [
+      {
+        "date": "2024-08-01",
+        "pm10": "20 µg/m³",
+        "pm2_5": "15 µg/m³",
+        "ozone": "30 µg/m³",
+        "nitrogenDioxide": "10 µg/m³",
+        "carbonMonoxide": "0.5 mg/m³"
+      },
+      {
+        "date": "2024-08-02",
+        "pm10": "22 µg/m³",
+        "pm2_5": "17 µg/m³",
+        "ozone": "32 µg/m³",
+        "nitrogenDioxide": "12 µg/m³",
+        "carbonMonoxide": "0.6 mg/m³"
+      }
+      
+    ]
+  }
+  

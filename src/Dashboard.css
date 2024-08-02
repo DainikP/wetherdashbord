@@ -1,0 +1,61 @@
+/* Dashboard.css */
+.dashboard {
+  padding: 20px;
+  background-color: #67a5e4;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #fefefe;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.grid-item:hover {
+  transform: scale(1.1); /* Increase size by 10% */
+}
+
+.map-container {
+  height: 100%; /* Full height of its grid cell */
+}
+
+.weather-card {
+  height: 200px; /* Set a fixed height for the weather card */
+}
+
+.weather-card .weather-icon img {
+  width: 80px; /* Adjust the icon size as needed */
+  height: 80px;
+}
+
+.weather-card .weather-details {
+  font-size: 14px; /* Smaller text for the weather card details */
+}
+
+.weather-card .weather-details h2 {
+  font-size: 20px; /* Smaller title for the weather card */
+}
+
+.weather-card .weather-details p {
+  font-size: 14px;
+}
+
+.weather-card .location-details p {
+  font-size: 12px; /* Smaller font size for location details */
+}

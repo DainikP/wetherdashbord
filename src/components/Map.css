@@ -1,0 +1,30 @@
+.map-container {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .leaflet-popup-content-wrapper {
+    background: #fff;
+    border-radius: 4px;
+  }
+  
+  .leaflet-popup-tip {
+    background: #fff;
+  }
+  
+  .leaflet-marker-icon {
+    border: 2px solid #007bff; /* Custom border color */
+    border-radius: 50%;
+  }
+  
+  .leaflet-control-zoom {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+  }

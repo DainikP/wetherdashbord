@@ -1,0 +1,39 @@
+.weather-card {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .weather-icon img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .weather-details {
+    text-align: center;
+  }
+  
+  .weather-details h2 {
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+  
+  .weather-details p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .location-details {
+    margin-top: 20px;
+  }
+  
+  .location-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
